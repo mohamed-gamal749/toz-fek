@@ -1,0 +1,16 @@
+{
+  "name": "expense-final",
+  "version": "1.0.0",
+  "description": "Expense tracker with automatic Google Drive Excel uploads (service account)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "googleapis": "^118.0.0",
+    "dotenv": "^16.6.1"
+  }
+}

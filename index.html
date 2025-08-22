@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>jemmy | online account </title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="wrap">
+  <header><h1>طز فيك</h1><p>welcom to jemmy account project</p></header>
+  <section class="card top">
+    <label>الشهر</label><input id="month" type="month"/>
+    <label>رأس المال</label><input id="capital" type="number" placeholder="مثال: 5000"/>
+    <button id="saveCapital" type="button">حفظ رأس المال</button><span id="capMsg"></span>
+  </section>
+  <section class="card">
+    <h3>أضف مصروف</h3>
+    <div class="row">
+      <input id="date" type="date"/>
+      <select id="category"><option>أكل</option><option>شرب</option><option>لبس</option><option>مواصلات</option><option>فواتير</option><option>ترفيه</option><option>صحة</option><option>أخرى</option></select>
+      <input id="amount" type="number" placeholder="المبلغ"/>
+      <input id="note" placeholder="ملاحظة (اختياري)"/>
+    </div>
+    <button id="addExpense">إضافة</button>
+  </section>
+  <section class="card grid">
+    <div>
+      <h4>ملخص</h4>
+      <p>إجمالي: <span id="total">0</span></p>
+      <p>المتبقي: <span id="remaining">0</span></p>
+      <button id="export">تصدير ورفع (أو تحميل)</button>
+    </div>
+    <div>
+      <h4>قائمة</h4>
+      <div class="list" id="list"></div>
+    </div>
+  </section>
+  <footer>مصمم بواسطة jemmy✨</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

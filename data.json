@@ -1,0 +1,30 @@
+{
+  "months": {
+    "2025-08": {
+      "capital": 5000,
+      "expenses": [
+        {
+          "id": "mehzi8n2a4z4lu",
+          "date": "2025-08-19",
+          "category": "أكل",
+          "amount": 2500,
+          "note": ""
+        },
+        {
+          "id": "mehziwttujnpgr",
+          "date": "2025-08-19",
+          "category": "شرب",
+          "amount": 200,
+          "note": ""
+        },
+        {
+          "id": "mehzjfsgfydrd6",
+          "date": "2025-08-19",
+          "category": "لبس",
+          "amount": 1000,
+          "note": ""
+        }
+      ]
+    }
+  }
+}
